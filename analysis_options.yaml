@@ -1,0 +1,5 @@
+
+linter:
+  rules:
+    depend_on_referenced_packages: false
+    non_constant_identifier_names: false
