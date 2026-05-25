@@ -11,7 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: 2.1.8
-  lat_hdr_transcoder_v2: 1.0.0+5
+  # 内嵌的 lat_hdr_transcoder_v2 (含 SPM 适配)，原 pub.dev 1.0.0+5 上游停滞且无 SPM 支持
+  lat_hdr_transcoder_v2:
+    path: ./plugin/lat_hdr_transcoder_v2
 
 
 dev_dependencies:
